@@ -53,5 +53,5 @@ $$\begin{equation} z_{sales} = \sum_i \sum_j \sum_k \sum_t y_{ijkt} \cdot PP_{ik
 $$ \begin{equation} z_{production} = \sum_i \sum_j \sum_t x_{ijt} \cdot PC_{ij} \end{equation} $$
 $$ \begin{equation} z_{shipment} = \sum_i \sum_j \sum_k \sum_t y_{ijkt} \cdot TC_{ijk} \end{equation} $$
 $$\begin{equation}z_{outsourcing} = \sum_i \sum_q \sum_k \sum_t z_{iqkt} \cdot OC_{iqk}\end{equation}$$
-$$\begin{equation} z_{inventory} = \sum_i \sum_j \sum_t x_{ijt} \cdot PC_{ij} \end{equation}$$
+$$\begin{equation} z_{inventory} = \sum_i \sum_j \sum_t I_{ijt} \cdot IC_{ij} \end{equation}$$
 $$z=Z_{sales} - z_{production} - z_{shipment} - z_{outsourcing} - z_{inventory}$$
